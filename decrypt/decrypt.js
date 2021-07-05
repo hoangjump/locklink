@@ -116,6 +116,6 @@ function onCopy(id) {
 function main() {
   if (window.location.hash) {
     document.querySelector("#encrypted-url").value =
-      `https://hoangjump.github.io/linklock/${window.location.hash}`;
+      `https://hoangjump.github.io/locklink/${window.location.hash}`;
   }
 }
